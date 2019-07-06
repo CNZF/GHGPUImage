@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "HPGPUImage"
+  s.name         = "GHGPUImage"
   s.version      = "0.1.1"
   s.summary      = "Image Handle"
 
