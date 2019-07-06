@@ -23,10 +23,10 @@ s.ios.deployment_target= '9.0'
   s.source       = { :git => "https://github.com/CNZF/GHGPUImage.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "HPGPUImage/src/framework/Source/**/*.{h,m}"
+  s.source_files  = "HPGPUImage/src/*.{h,m}"
   s.exclude_files = "HPGPUImage/Exclude"
 
-  s.public_header_files = "HPGPUImage/src/framework/Source/**/*.h"
+  s.public_header_files = "HPGPUImage/src/*.h"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
