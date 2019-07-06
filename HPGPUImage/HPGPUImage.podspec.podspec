@@ -26,7 +26,7 @@ s.ios.deployment_target= '7.0'
   s.source_files  = "HPGPUImage/src/**/*.{h,m}"
   s.exclude_files = "HPGPUImage/Exclude"
 
-  s.public_header_files = "HPGPUImage/src/**/*.h"
+  s.public_header_files = "HPGPUImage/src/framework/Source/**/*.h"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
