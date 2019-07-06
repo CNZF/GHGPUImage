@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HPGPUImage"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Image Handle"
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
    s.platform     = :ios, "9.0"
 s.ios.deployment_target= '9.0'
-  s.source       = { :git => "https://github.com/CNZF/GHGPUImage.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/CNZF/GHGPUImage.git",:commit => "f9ae8ff632c11c62858fad8fca08d3e8c2fb468e", :tag => "#{s.version}" }
 
 
   s.source_files  = "HPGPUImage/src/*.{h,m}"
