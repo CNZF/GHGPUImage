@@ -17,8 +17,8 @@ Image Handle
 
   s.author             = { "zhaofa-hp" => "zhaofa@huapubj.com" }
 
-  s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :ios
+   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/CNZF/GHGPUImage.git", :tag => "#{s.version}" }
 
