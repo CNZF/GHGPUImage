@@ -19,7 +19,7 @@ Image Handle
 
   # s.platform     = :ios
    s.platform     = :ios, "8.0"
-
+s.ios.deployment_target= '7.0'
   s.source       = { :git => "https://github.com/CNZF/GHGPUImage.git", :tag => "#{s.version}" }
 
 
