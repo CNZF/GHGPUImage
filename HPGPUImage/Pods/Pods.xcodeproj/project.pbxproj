@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B41A53B243C9ED78BE5FBFCA279574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A768752FECA6AA89FFFE87C8A64E667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7BEE3C8AE5E61BB582E4706E299874FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B33CD1D02426AC28751FA4BC3A48B58C /* Pods-HPGPUImageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66EA7241FF2B39E7FEA11FF8B4EEE93 /* Pods-HPGPUImageTests-dummy.m */; };
+		B5D5798987E98197608D524820AC8971 /* Pods-HPGPUImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D736FDFE185998F8631ADE3B5389FF /* Pods-HPGPUImage-dummy.m */; };
+		B9A9DC6C5B44E49A397DBEB649343495 /* Pods-HPGPUImageUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A1A7A89794008459DCC134D573EA6E /* Pods-HPGPUImageUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12A1A7A89794008459DCC134D573EA6E /* Pods-HPGPUImageUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPGPUImageUITests-dummy.m"; sourceTree = "<group>"; };
+		13162F0025BD53C417C28A28A5673AAA /* Pods-HPGPUImageTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPGPUImageTests-frameworks.sh"; sourceTree = "<group>"; };
+		16BBB9ABA076782D7D9346FC1B8E9987 /* Pods-HPGPUImage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPGPUImage-frameworks.sh"; sourceTree = "<group>"; };
+		2D4A090F192227A88DA1E6C99ADA53A5 /* Pods-HPGPUImageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPGPUImageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DF2E63C60C4B74E8EF6C7BA87818663 /* Pods-HPGPUImageTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPGPUImageTests-resources.sh"; sourceTree = "<group>"; };
+		41BC703E627DEE463B47F65164FA23BC /* libPods-HPGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HPGPUImage.a"; path = "libPods-HPGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5348D113CBE5761F32784DB66E381878 /* Pods-HPGPUImageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPGPUImageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66D736FDFE185998F8631ADE3B5389FF /* Pods-HPGPUImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPGPUImage-dummy.m"; sourceTree = "<group>"; };
+		6AC99B6405CA946527896E415E31F85C /* Pods-HPGPUImage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPGPUImage-resources.sh"; sourceTree = "<group>"; };
+		6D24F41DC37863C8DEBBE0473E914F03 /* libPods-HPGPUImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HPGPUImageTests.a"; path = "libPods-HPGPUImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E98EE1DC8427E88D9DB58D5B8B8A449 /* Pods-HPGPUImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPGPUImageTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EE0F8B11FFF311FDA9E232163CED234 /* Pods-HPGPUImageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPGPUImageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F2A1A1F6DCAD101B3A92D6AB2444215 /* Pods-HPGPUImageUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPGPUImageUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3BCEEA3E4A65B382F1B1270337EAC2D /* Pods-HPGPUImageUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPGPUImageUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B66EA7241FF2B39E7FEA11FF8B4EEE93 /* Pods-HPGPUImageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPGPUImageTests-dummy.m"; sourceTree = "<group>"; };
+		C88889BEE3778C92D1C564B0DF27BEF8 /* Pods-HPGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
+		D0280E7D527536A74E7248E7E67DCEB1 /* Pods-HPGPUImageUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPGPUImageUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D07452786957A07746842AD6A8B7DE17 /* Pods-HPGPUImageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPGPUImageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2AA9EC23C0706AC550240159CED69B5 /* libPods-HPGPUImageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HPGPUImageUITests.a"; path = "libPods-HPGPUImageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3044381F25A3060FD4434B9D1F6E1B1 /* Pods-HPGPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPGPUImage.release.xcconfig"; sourceTree = "<group>"; };
+		DA4D573BD3704F877E078D68BA64047A /* Pods-HPGPUImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPGPUImage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC0A67DCF0E2D5A65CB4BAD85FF717ED /* Pods-HPGPUImageUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPGPUImageUITests-resources.sh"; sourceTree = "<group>"; };
+		EE436DDB66C3117867EE96F26A633C80 /* Pods-HPGPUImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPGPUImage-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBE986084DEC6F8A43EDA9EA90FF0648 /* Pods-HPGPUImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPGPUImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F8F364850FFCC2FD235FB8E8B11662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A768752FECA6AA89FFFE87C8A64E667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791C338A68894DCD7D2089F141E1468D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B41A53B243C9ED78BE5FBFCA279574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED15308CC85516ECF04F6A98668D30F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEE3C8AE5E61BB582E4706E299874FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D39850AFF74C9D8C2FAA3A7D94A3A80 /* Pods-HPGPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D573BD3704F877E078D68BA64047A /* Pods-HPGPUImage-acknowledgements.markdown */,
+				EE436DDB66C3117867EE96F26A633C80 /* Pods-HPGPUImage-acknowledgements.plist */,
+				66D736FDFE185998F8631ADE3B5389FF /* Pods-HPGPUImage-dummy.m */,
+				16BBB9ABA076782D7D9346FC1B8E9987 /* Pods-HPGPUImage-frameworks.sh */,
+				6AC99B6405CA946527896E415E31F85C /* Pods-HPGPUImage-resources.sh */,
+				C88889BEE3778C92D1C564B0DF27BEF8 /* Pods-HPGPUImage.debug.xcconfig */,
+				D3044381F25A3060FD4434B9D1F6E1B1 /* Pods-HPGPUImage.release.xcconfig */,
+			);
+			name = "Pods-HPGPUImage";
+			path = "Target Support Files/Pods-HPGPUImage";
+			sourceTree = "<group>";
+		};
+		44DA10CD197E70630DE0B3AD55594033 /* Pods-HPGPUImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A090F192227A88DA1E6C99ADA53A5 /* Pods-HPGPUImageTests-acknowledgements.markdown */,
+				D07452786957A07746842AD6A8B7DE17 /* Pods-HPGPUImageTests-acknowledgements.plist */,
+				B66EA7241FF2B39E7FEA11FF8B4EEE93 /* Pods-HPGPUImageTests-dummy.m */,
+				13162F0025BD53C417C28A28A5673AAA /* Pods-HPGPUImageTests-frameworks.sh */,
+				3DF2E63C60C4B74E8EF6C7BA87818663 /* Pods-HPGPUImageTests-resources.sh */,
+				FBE986084DEC6F8A43EDA9EA90FF0648 /* Pods-HPGPUImageTests.debug.xcconfig */,
+				7E98EE1DC8427E88D9DB58D5B8B8A449 /* Pods-HPGPUImageTests.release.xcconfig */,
+			);
+			name = "Pods-HPGPUImageTests";
+			path = "Target Support Files/Pods-HPGPUImageTests";
+			sourceTree = "<group>";
+		};
+		4D98349FD9A7E73AF2D58338D43E93BC /* Pods-HPGPUImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BCEEA3E4A65B382F1B1270337EAC2D /* Pods-HPGPUImageUITests-acknowledgements.markdown */,
+				7F2A1A1F6DCAD101B3A92D6AB2444215 /* Pods-HPGPUImageUITests-acknowledgements.plist */,
+				12A1A7A89794008459DCC134D573EA6E /* Pods-HPGPUImageUITests-dummy.m */,
+				D0280E7D527536A74E7248E7E67DCEB1 /* Pods-HPGPUImageUITests-frameworks.sh */,
+				EC0A67DCF0E2D5A65CB4BAD85FF717ED /* Pods-HPGPUImageUITests-resources.sh */,
+				7EE0F8B11FFF311FDA9E232163CED234 /* Pods-HPGPUImageUITests.debug.xcconfig */,
+				5348D113CBE5761F32784DB66E381878 /* Pods-HPGPUImageUITests.release.xcconfig */,
+			);
+			name = "Pods-HPGPUImageUITests";
+			path = "Target Support Files/Pods-HPGPUImageUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EDD913FA9232996F4B6537CA66D0B22F /* Products */,
+				D01BD695F8EBF7A0B71CDBFCEED79588 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D01BD695F8EBF7A0B71CDBFCEED79588 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D39850AFF74C9D8C2FAA3A7D94A3A80 /* Pods-HPGPUImage */,
+				44DA10CD197E70630DE0B3AD55594033 /* Pods-HPGPUImageTests */,
+				4D98349FD9A7E73AF2D58338D43E93BC /* Pods-HPGPUImageUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDD913FA9232996F4B6537CA66D0B22F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BC703E627DEE463B47F65164FA23BC /* libPods-HPGPUImage.a */,
+				6D24F41DC37863C8DEBBE0473E914F03 /* libPods-HPGPUImageTests.a */,
+				D2AA9EC23C0706AC550240159CED69B5 /* libPods-HPGPUImageUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		534CE73135BD25553B54AD41700A0F16 /* Pods-HPGPUImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C01CF3C2867B408CB17403A02A22CB4 /* Build configuration list for PBXNativeTarget "Pods-HPGPUImage" */;
+			buildPhases = (
+				BBFE5D0051C75353380A6BDCB34CA6F4 /* Sources */,
+				ED15308CC85516ECF04F6A98668D30F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HPGPUImage";
+			productName = "Pods-HPGPUImage";
+			productReference = 41BC703E627DEE463B47F65164FA23BC /* libPods-HPGPUImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9373ED79D0E33B9A31D1AC5089FE72F4 /* Pods-HPGPUImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248078A21CDFDD86B26D1221C0AAD7EF /* Build configuration list for PBXNativeTarget "Pods-HPGPUImageTests" */;
+			buildPhases = (
+				1E30A92CBA4309D1E02419DE585CF2A0 /* Sources */,
+				791C338A68894DCD7D2089F141E1468D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HPGPUImageTests";
+			productName = "Pods-HPGPUImageTests";
+			productReference = 6D24F41DC37863C8DEBBE0473E914F03 /* libPods-HPGPUImageTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9FCBBE8692CB5BFB9F4A2E9AE763F475 /* Pods-HPGPUImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506C40098A6E1BD0413A1101AB7A9829 /* Build configuration list for PBXNativeTarget "Pods-HPGPUImageUITests" */;
+			buildPhases = (
+				BE7AA86FED1608072590E92ED7BB9E80 /* Sources */,
+				18F8F364850FFCC2FD235FB8E8B11662 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HPGPUImageUITests";
+			productName = "Pods-HPGPUImageUITests";
+			productReference = D2AA9EC23C0706AC550240159CED69B5 /* libPods-HPGPUImageUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDD913FA9232996F4B6537CA66D0B22F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				534CE73135BD25553B54AD41700A0F16 /* Pods-HPGPUImage */,
+				9373ED79D0E33B9A31D1AC5089FE72F4 /* Pods-HPGPUImageTests */,
+				9FCBBE8692CB5BFB9F4A2E9AE763F475 /* Pods-HPGPUImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E30A92CBA4309D1E02419DE585CF2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33CD1D02426AC28751FA4BC3A48B58C /* Pods-HPGPUImageTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFE5D0051C75353380A6BDCB34CA6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D5798987E98197608D524820AC8971 /* Pods-HPGPUImage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7AA86FED1608072590E92ED7BB9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A9DC6C5B44E49A397DBEB649343495 /* Pods-HPGPUImageUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B84281129EA466B77E680BC57A67E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3044381F25A3060FD4434B9D1F6E1B1 /* Pods-HPGPUImage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3A02C708DAA2CFC05CEF981A7699BE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE986084DEC6F8A43EDA9EA90FF0648 /* Pods-HPGPUImageTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8D1FD3149123853734FF43371F4F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE0F8B11FFF311FDA9E232163CED234 /* Pods-HPGPUImageUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5303C5CBB9E26596D57B0230B4AB3C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88889BEE3778C92D1C564B0DF27BEF8 /* Pods-HPGPUImage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19A8EB8CCD4F2578FAFE8DB1B791F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5348D113CBE5761F32784DB66E381878 /* Pods-HPGPUImageUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04241914D206711A2B9A7C5C19425F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E98EE1DC8427E88D9DB58D5B8B8A449 /* Pods-HPGPUImageTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248078A21CDFDD86B26D1221C0AAD7EF /* Build configuration list for PBXNativeTarget "Pods-HPGPUImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A02C708DAA2CFC05CEF981A7699BE93 /* Debug */,
+				D04241914D206711A2B9A7C5C19425F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506C40098A6E1BD0413A1101AB7A9829 /* Build configuration list for PBXNativeTarget "Pods-HPGPUImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8D1FD3149123853734FF43371F4F83 /* Debug */,
+				B19A8EB8CCD4F2578FAFE8DB1B791F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C01CF3C2867B408CB17403A02A22CB4 /* Build configuration list for PBXNativeTarget "Pods-HPGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5303C5CBB9E26596D57B0230B4AB3C6F /* Debug */,
+				1B84281129EA466B77E680BC57A67E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

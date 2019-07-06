@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6E9B3E189EA1F2AA77B8A7 /* libPods-HPGPUImageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E543C80E95071BB8842A56 /* libPods-HPGPUImageUITests.a */; };
+		69B8247B19B915B08D9A1285 /* libPods-HPGPUImageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E011474BD38D4242CC900FC /* libPods-HPGPUImageTests.a */; };
+		732AA21A22D0747C00CF67C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732AA21922D0747C00CF67C2 /* AppDelegate.m */; };
+		732AA21D22D0747C00CF67C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732AA21C22D0747C00CF67C2 /* ViewController.m */; };
+		732AA22022D0747C00CF67C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732AA21E22D0747C00CF67C2 /* Main.storyboard */; };
+		732AA22222D0747D00CF67C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732AA22122D0747D00CF67C2 /* Assets.xcassets */; };
+		732AA22522D0747D00CF67C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732AA22322D0747D00CF67C2 /* LaunchScreen.storyboard */; };
+		732AA22822D0747D00CF67C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732AA22722D0747D00CF67C2 /* main.m */; };
+		732AA23222D0747D00CF67C2 /* HPGPUImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732AA23122D0747D00CF67C2 /* HPGPUImageTests.m */; };
+		732AA23D22D0747D00CF67C2 /* HPGPUImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732AA23C22D0747D00CF67C2 /* HPGPUImageUITests.m */; };
+		CF4B715CE94D295D0031402E /* libPods-HPGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F1D5F804DB779DE18533F6 /* libPods-HPGPUImage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732AA22E22D0747D00CF67C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732AA20D22D0747C00CF67C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732AA21422D0747C00CF67C2;
+			remoteInfo = HPGPUImage;
+		};
+		732AA23922D0747D00CF67C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732AA20D22D0747C00CF67C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732AA21422D0747C00CF67C2;
+			remoteInfo = HPGPUImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F1D5F804DB779DE18533F6 /* libPods-HPGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0875B38110A2876FBDEF38CB /* Pods-HPGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPGPUImage/Pods-HPGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF913B400D3B7FC85E5A61F /* Pods-HPGPUImageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGPUImageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPGPUImageUITests/Pods-HPGPUImageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA18AAF0A4BD530AED32318 /* Pods-HPGPUImageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGPUImageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPGPUImageUITests/Pods-HPGPUImageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E011474BD38D4242CC900FC /* libPods-HPGPUImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPGPUImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		541124FDF96FC3E71F359232 /* Pods-HPGPUImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGPUImageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPGPUImageTests/Pods-HPGPUImageTests.release.xcconfig"; sourceTree = "<group>"; };
+		71E543C80E95071BB8842A56 /* libPods-HPGPUImageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPGPUImageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		732AA21522D0747C00CF67C2 /* HPGPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPGPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732AA21822D0747C00CF67C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		732AA21922D0747C00CF67C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		732AA21B22D0747C00CF67C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		732AA21C22D0747C00CF67C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		732AA21F22D0747C00CF67C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		732AA22122D0747D00CF67C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		732AA22422D0747D00CF67C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		732AA22622D0747D00CF67C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732AA22722D0747D00CF67C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		732AA22D22D0747D00CF67C2 /* HPGPUImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPGPUImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732AA23122D0747D00CF67C2 /* HPGPUImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPGPUImageTests.m; sourceTree = "<group>"; };
+		732AA23322D0747D00CF67C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732AA23822D0747D00CF67C2 /* HPGPUImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPGPUImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732AA23C22D0747D00CF67C2 /* HPGPUImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPGPUImageUITests.m; sourceTree = "<group>"; };
+		732AA23E22D0747D00CF67C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9762371FA2E499B720F91D37 /* Pods-HPGPUImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGPUImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPGPUImageTests/Pods-HPGPUImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99F35EDBE9AFE42D5214F116 /* Pods-HPGPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPGPUImage/Pods-HPGPUImage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732AA21222D0747C00CF67C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4B715CE94D295D0031402E /* libPods-HPGPUImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732AA22A22D0747D00CF67C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B8247B19B915B08D9A1285 /* libPods-HPGPUImageTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732AA23522D0747D00CF67C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6E9B3E189EA1F2AA77B8A7 /* libPods-HPGPUImageUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F369AB2BEF9EB6426F6A599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F1D5F804DB779DE18533F6 /* libPods-HPGPUImage.a */,
+				3E011474BD38D4242CC900FC /* libPods-HPGPUImageTests.a */,
+				71E543C80E95071BB8842A56 /* libPods-HPGPUImageUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732AA20C22D0747C00CF67C2 = {
+			isa = PBXGroup;
+			children = (
+				732AA21722D0747C00CF67C2 /* HPGPUImage */,
+				732AA23022D0747D00CF67C2 /* HPGPUImageTests */,
+				732AA23B22D0747D00CF67C2 /* HPGPUImageUITests */,
+				732AA21622D0747C00CF67C2 /* Products */,
+				9E67C76C1325ECEDC0AF9B34 /* Pods */,
+				5F369AB2BEF9EB6426F6A599 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		732AA21622D0747C00CF67C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732AA21522D0747C00CF67C2 /* HPGPUImage.app */,
+				732AA22D22D0747D00CF67C2 /* HPGPUImageTests.xctest */,
+				732AA23822D0747D00CF67C2 /* HPGPUImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732AA21722D0747C00CF67C2 /* HPGPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				732AA21822D0747C00CF67C2 /* AppDelegate.h */,
+				732AA21922D0747C00CF67C2 /* AppDelegate.m */,
+				732AA21B22D0747C00CF67C2 /* ViewController.h */,
+				732AA21C22D0747C00CF67C2 /* ViewController.m */,
+				732AA21E22D0747C00CF67C2 /* Main.storyboard */,
+				732AA22122D0747D00CF67C2 /* Assets.xcassets */,
+				732AA22322D0747D00CF67C2 /* LaunchScreen.storyboard */,
+				732AA22622D0747D00CF67C2 /* Info.plist */,
+				732AA22722D0747D00CF67C2 /* main.m */,
+			);
+			path = HPGPUImage;
+			sourceTree = "<group>";
+		};
+		732AA23022D0747D00CF67C2 /* HPGPUImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				732AA23122D0747D00CF67C2 /* HPGPUImageTests.m */,
+				732AA23322D0747D00CF67C2 /* Info.plist */,
+			);
+			path = HPGPUImageTests;
+			sourceTree = "<group>";
+		};
+		732AA23B22D0747D00CF67C2 /* HPGPUImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				732AA23C22D0747D00CF67C2 /* HPGPUImageUITests.m */,
+				732AA23E22D0747D00CF67C2 /* Info.plist */,
+			);
+			path = HPGPUImageUITests;
+			sourceTree = "<group>";
+		};
+		9E67C76C1325ECEDC0AF9B34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0875B38110A2876FBDEF38CB /* Pods-HPGPUImage.debug.xcconfig */,
+				99F35EDBE9AFE42D5214F116 /* Pods-HPGPUImage.release.xcconfig */,
+				9762371FA2E499B720F91D37 /* Pods-HPGPUImageTests.debug.xcconfig */,
+				541124FDF96FC3E71F359232 /* Pods-HPGPUImageTests.release.xcconfig */,
+				1EF913B400D3B7FC85E5A61F /* Pods-HPGPUImageUITests.debug.xcconfig */,
+				2BA18AAF0A4BD530AED32318 /* Pods-HPGPUImageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732AA21422D0747C00CF67C2 /* HPGPUImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732AA24122D0747D00CF67C2 /* Build configuration list for PBXNativeTarget "HPGPUImage" */;
+			buildPhases = (
+				7ACC8D913B91D613A8558DDE /* [CP] Check Pods Manifest.lock */,
+				732AA21122D0747C00CF67C2 /* Sources */,
+				732AA21222D0747C00CF67C2 /* Frameworks */,
+				732AA21322D0747C00CF67C2 /* Resources */,
+				AC0B42F08525D5B2318E5CA5 /* [CP] Embed Pods Frameworks */,
+				232BBEA05CBA7483A7557E35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPGPUImage;
+			productName = HPGPUImage;
+			productReference = 732AA21522D0747C00CF67C2 /* HPGPUImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		732AA22C22D0747D00CF67C2 /* HPGPUImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732AA24422D0747D00CF67C2 /* Build configuration list for PBXNativeTarget "HPGPUImageTests" */;
+			buildPhases = (
+				E6F2AFDB3AF0AB8958870F0C /* [CP] Check Pods Manifest.lock */,
+				732AA22922D0747D00CF67C2 /* Sources */,
+				732AA22A22D0747D00CF67C2 /* Frameworks */,
+				732AA22B22D0747D00CF67C2 /* Resources */,
+				E6573916E4B8EB3C3AED865A /* [CP] Embed Pods Frameworks */,
+				99BFB51C6FF767EBF0818316 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732AA22F22D0747D00CF67C2 /* PBXTargetDependency */,
+			);
+			name = HPGPUImageTests;
+			productName = HPGPUImageTests;
+			productReference = 732AA22D22D0747D00CF67C2 /* HPGPUImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		732AA23722D0747D00CF67C2 /* HPGPUImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732AA24722D0747D00CF67C2 /* Build configuration list for PBXNativeTarget "HPGPUImageUITests" */;
+			buildPhases = (
+				02D8679C99E0B0053B13E693 /* [CP] Check Pods Manifest.lock */,
+				732AA23422D0747D00CF67C2 /* Sources */,
+				732AA23522D0747D00CF67C2 /* Frameworks */,
+				732AA23622D0747D00CF67C2 /* Resources */,
+				156B4E39D1F053C20CFC9D9D /* [CP] Embed Pods Frameworks */,
+				667F26B15F089F17B3B20CD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732AA23A22D0747D00CF67C2 /* PBXTargetDependency */,
+			);
+			name = HPGPUImageUITests;
+			productName = HPGPUImageUITests;
+			productReference = 732AA23822D0747D00CF67C2 /* HPGPUImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732AA20D22D0747C00CF67C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = chenyingchao;
+				TargetAttributes = {
+					732AA21422D0747C00CF67C2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					732AA22C22D0747D00CF67C2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 732AA21422D0747C00CF67C2;
+					};
+					732AA23722D0747D00CF67C2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 732AA21422D0747C00CF67C2;
+					};
+				};
+			};
+			buildConfigurationList = 732AA21022D0747C00CF67C2 /* Build configuration list for PBXProject "HPGPUImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732AA20C22D0747C00CF67C2;
+			productRefGroup = 732AA21622D0747C00CF67C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732AA21422D0747C00CF67C2 /* HPGPUImage */,
+				732AA22C22D0747D00CF67C2 /* HPGPUImageTests */,
+				732AA23722D0747D00CF67C2 /* HPGPUImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732AA21322D0747C00CF67C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732AA22522D0747D00CF67C2 /* LaunchScreen.storyboard in Resources */,
+				732AA22222D0747D00CF67C2 /* Assets.xcassets in Resources */,
+				732AA22022D0747C00CF67C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732AA22B22D0747D00CF67C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732AA23622D0747D00CF67C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D8679C99E0B0053B13E693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPGPUImageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		156B4E39D1F053C20CFC9D9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGPUImageUITests/Pods-HPGPUImageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		232BBEA05CBA7483A7557E35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGPUImage/Pods-HPGPUImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667F26B15F089F17B3B20CD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGPUImageUITests/Pods-HPGPUImageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACC8D913B91D613A8558DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPGPUImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BFB51C6FF767EBF0818316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGPUImageTests/Pods-HPGPUImageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0B42F08525D5B2318E5CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGPUImage/Pods-HPGPUImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6573916E4B8EB3C3AED865A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGPUImageTests/Pods-HPGPUImageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F2AFDB3AF0AB8958870F0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPGPUImageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732AA21122D0747C00CF67C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732AA21D22D0747C00CF67C2 /* ViewController.m in Sources */,
+				732AA22822D0747D00CF67C2 /* main.m in Sources */,
+				732AA21A22D0747C00CF67C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732AA22922D0747D00CF67C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732AA23222D0747D00CF67C2 /* HPGPUImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732AA23422D0747D00CF67C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732AA23D22D0747D00CF67C2 /* HPGPUImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732AA22F22D0747D00CF67C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732AA21422D0747C00CF67C2 /* HPGPUImage */;
+			targetProxy = 732AA22E22D0747D00CF67C2 /* PBXContainerItemProxy */;
+		};
+		732AA23A22D0747D00CF67C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732AA21422D0747C00CF67C2 /* HPGPUImage */;
+			targetProxy = 732AA23922D0747D00CF67C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		732AA21E22D0747C00CF67C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732AA21F22D0747C00CF67C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		732AA22322D0747D00CF67C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732AA22422D0747D00CF67C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732AA23F22D0747D00CF67C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		732AA24022D0747D00CF67C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		732AA24222D0747D00CF67C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0875B38110A2876FBDEF38CB /* Pods-HPGPUImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGH7S67FXX;
+				INFOPLIST_FILE = HPGPUImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huafen.HPGPUImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		732AA24322D0747D00CF67C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F35EDBE9AFE42D5214F116 /* Pods-HPGPUImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BGH7S67FXX;
+				INFOPLIST_FILE = HPGPUImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huafen.HPGPUImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		732AA24522D0747D00CF67C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9762371FA2E499B720F91D37 /* Pods-HPGPUImageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPGPUImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huafen.HPGPUImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPGPUImage.app/HPGPUImage";
+			};
+			name = Debug;
+		};
+		732AA24622D0747D00CF67C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541124FDF96FC3E71F359232 /* Pods-HPGPUImageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPGPUImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huafen.HPGPUImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPGPUImage.app/HPGPUImage";
+			};
+			name = Release;
+		};
+		732AA24822D0747D00CF67C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF913B400D3B7FC85E5A61F /* Pods-HPGPUImageUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPGPUImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huafen.HPGPUImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPGPUImage;
+			};
+			name = Debug;
+		};
+		732AA24922D0747D00CF67C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA18AAF0A4BD530AED32318 /* Pods-HPGPUImageUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPGPUImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huafen.HPGPUImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPGPUImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732AA21022D0747C00CF67C2 /* Build configuration list for PBXProject "HPGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732AA23F22D0747D00CF67C2 /* Debug */,
+				732AA24022D0747D00CF67C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732AA24122D0747D00CF67C2 /* Build configuration list for PBXNativeTarget "HPGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732AA24222D0747D00CF67C2 /* Debug */,
+				732AA24322D0747D00CF67C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732AA24422D0747D00CF67C2 /* Build configuration list for PBXNativeTarget "HPGPUImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732AA24522D0747D00CF67C2 /* Debug */,
+				732AA24622D0747D00CF67C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732AA24722D0747D00CF67C2 /* Build configuration list for PBXNativeTarget "HPGPUImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732AA24822D0747D00CF67C2 /* Debug */,
+				732AA24922D0747D00CF67C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732AA20D22D0747C00CF67C2 /* Project object */;
+}
