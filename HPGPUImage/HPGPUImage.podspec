@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "Image Handle"
 
   s.description  = <<-DESC
-Image Handle
+                    Image Handle with zf
                    DESC
 
   s.homepage     = "https://github.com/CNZF/GHGPUImage"
@@ -18,8 +18,8 @@ Image Handle
   s.author             = { "zhaofa-hp" => "zhaofa@huapubj.com" }
 
   # s.platform     = :ios
-   s.platform     = :ios, "8.0"
-s.ios.deployment_target= '7.0'
+   s.platform     = :ios, "9.0"
+s.ios.deployment_target= '9.0'
   s.source       = { :git => "https://github.com/CNZF/GHGPUImage.git", :tag => "#{s.version}" }
 
 
